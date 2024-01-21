@@ -1,7 +1,8 @@
 # Devtools - development tools for Arch Linux
 
-This repository contains tools for the Arch Linux distribution for building
-and maintaining official repository packages.
+This repository contains tools originally developed for the Arch Linux distribution for building and maintaining official repository packages.
+
+The tools in this repo have been modified to support Fuji Linux.
 
 ## Building
 
