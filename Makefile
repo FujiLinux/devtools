@@ -1,6 +1,6 @@
 SHELL=/bin/bash
 
-V=1.1.1
+V=1.1.0
 BUILDTOOLVER ?= $(V)
 
 PREFIX = /usr/local
@@ -167,7 +167,7 @@ tag:
 	git tag --sign --message "Version v$$VERSION" v$$VERSION
 
 release: dist
-	git push --tags origin master
+	git push --tags origin fuji
 	git cliff --version >/dev/null
 	gh release create v$(V) devtools-$(V).tar.gz* --title v$(V) --notes-file <(git cliff --strip=all --latest)
 
