@@ -1,6 +1,6 @@
 SHELL=/bin/bash
 
-V=1.1.1
+V=1.1.1-fuji
 BUILDTOOLVER ?= $(V)
 
 PREFIX = /usr/local
