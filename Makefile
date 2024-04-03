@@ -1,6 +1,6 @@
 SHELL=/bin/bash -o pipefail
 
-V=1.1.3-fuji
+V=1.1.4-fuji
 BUILDTOOLVER ?= $(V)
 
 PREFIX = /usr/local
